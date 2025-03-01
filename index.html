@@ -12,6 +12,13 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Interactive rating component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -27,8 +34,14 @@
         padding: 0;
       }
 
+      @font-face {
+        font-family: Overpass;
+        src: url(https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap);
+      }
+
       body {
         background-color: hsl(216, 12%, 8%);
+        font-family: Overpass;
       }
 
       main {
@@ -50,6 +63,7 @@
         /* border-left-width: 1px; */
         /* border-right-width: 6px; */
         /* border-bottom-width: 6px; */
+        font-family: Overpass;
 
         transform: translateX(110px) translateY(150px);
       }
@@ -64,11 +78,13 @@
       h2 {
         color: hsl(0, 0%, 100%);
         margin-left: 20px;
+        font-family: Overpass;
       }
 
       p {
         color: hsl(0, 0%, 100%);
         margin-left: 20px;
+        font-family: Overpass;
       }
 
       button {
@@ -81,6 +97,7 @@
         margin-left: 25px;
         border-width: 2px;
         border-radius: 40px;
+        font-family: Overpass;
 
         transform: translateY(-50px);
       }
